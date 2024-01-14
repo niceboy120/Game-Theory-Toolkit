@@ -1,22 +1,31 @@
 # Game-Theory-Toolkit
 Collection of algorithms, environments, and examples of applications of Game Theory and Reinforcement Learning.
 
-## User Guide
+## Structure
+- /algorithms: Contains fast Python implementions of all the algorithms used. 
+- /environments: Contains various games for each of the parameter combinations.
+- /examples: Contains Jupyter notebooks presenting the use of successful algorithms on various environments.
 
-Here is a guide for the different kind of games we'll encounter. For each combination of the following parameters, I provide example environments and the best algorithms to use in that case. 
-A lot of literature exists for various cases but it often hard to find the right algorithm for your use case. 
+## Basic Description
 
-Here are the parameters we'll be considering:
+Here is a guide for the different kind of games we'll encounter. For each combination of the following parameters, I provide example environments and the best algorithm to use in that case. 
+This repository is meant to act as a first-stop resource for anyone who wants to apply game-theory to an actual problem, and as a survey for any researcher looking to develop new algorithms for 
+cases currently that don't have a good algorithm.
+
+Here are the parameters I'll be considering:
 
 - Number of Players:
-  - 1 player: Agent vs Environment
-  - 2 player: Player vs Player
-  - N player: Player vs N-1 players
+  - 1 player: Agent vs Environment.
+  - 2 player: Player vs Player.
+  - N player: Player vs N-1 players.
   
 - Dynamics:
-  - Normal Form: Single-simultaneous turn
-  - Extensive Form: Turn by turn games
-  - Simultaneous Action: Multiple simultaneous turns 
+  - Normal Form: Single-simultaneous turn.
+    - Stackelberg Option: The agent is able to reveal the strategy it'll commit to before the other player makes a decision.
+  - Extensive Form: Turn by turn games.
+  - Simultaneous Action: Multiple simultaneous turns.
+    - Stackelberg Option: The agent is able to reveal the strategy it'll commit to before the other player makes a decision.
+  
  
 - Information Type:
   - Perfect Information: Each player knows the current state.
