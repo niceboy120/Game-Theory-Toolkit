@@ -2,15 +2,13 @@
 Collection of algorithms, environments, and examples of applications of Game Theory and Reinforcement Learning.
 
 ## Structure
-- /algorithms: Contains fast Python implementions of all the algorithms used. 
-- /environments: Contains various games for each of the parameter combinations.
-- /examples: Contains Jupyter notebooks presenting the use of successful algorithms on various environments.
+- [/algorithms](/algorithms): Contains fast Python implementions of all the algorithms used. 
+- [/environments](/environments): Contains various games for each of the parameter combinations.
+- [/examples](/examples): Contains Jupyter notebooks presenting the use of successful algorithms on various environments.
 
-## Basic Description
-
-Here is a guide for the different kind of games we'll encounter. For each combination of the following parameters, I provide example environments and the best algorithm to use in that case. 
+## Overview
 This repository is meant to act as a first-stop resource for anyone who wants to apply game-theory to an actual problem, and as a survey for any researcher looking to develop new algorithms for 
-cases currently that don't have a good algorithm.
+cases currently that don't have a good algorithm. In [/guide.md](/guide.md), I describe example environments and the best algorithm to use in each combination of the following parameters.
 
 Here are the parameters I'll be considering:
 
@@ -40,9 +38,9 @@ Here are the parameters I'll be considering:
   - Stochastic: Some state transitions are chance-based.
  
 - Model available:
-  - Model-based: Game mechanics are known and the game can be simulated.
-  - Model-free On-policy: Game mechanics aren't known to the agent but the game can be simulated.
-  - Model-free Off-policy: Game mechanics aren't known to the agent and the game can't be simulated.
+  - Model-based: Game mechanics are known and the game can be played.
+  - Model-free On-policy: Game mechanics aren't known to the agent but the game can be played.
+  - Model-free Off-policy: Game mechanics aren't known to the agent and the game can't be played.
 
 - State Space Size:
   - Finite Discrete: Number of states is bounded. We'll discuss which algorithms to use for various scales. 
