@@ -8,7 +8,7 @@ Collection of algorithms, environments, and examples of applications of Game The
 
 ## Overview
 This repository is meant to act as a first-stop resource for anyone who wants to apply game-theory to an actual problem, and as a survey for any researcher looking to develop new algorithms for 
-cases currently that don't have a good algorithm. In [/guide.md](/guide.md), I describe example environments and the best algorithm to use in each combination of the following parameters.
+cases currently that don't have a good algorithm. In [/guide.pdf](/guide.pdf), I describe example environments and the best algorithm to use in each combination of the following parameters.
 
 Here are the parameters I'll be considering:
 
