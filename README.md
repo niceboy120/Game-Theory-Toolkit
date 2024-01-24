@@ -47,7 +47,7 @@ Here are the parameters I'll be considering:
   - Infinite Discrete: Number of states is countably infinite.
   - Continuous: Number of states is uncountably infinite.
 
-- Action Size:
+- Action Space Size:
   - Finite Discrete: Number of actions is bounded.
   - Infinite Discrete: Number of actions is countably infinite.
   - Continuous: Number of actions are uncountably infinite.
